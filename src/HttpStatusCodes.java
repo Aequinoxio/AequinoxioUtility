@@ -84,9 +84,9 @@ public enum HttpStatusCodes {
     Network_Connect_Timeout_Error(599, "Network Connect Timeout Error"),
     UNKNOWN_CODE(-1,"Unknown code");
 
-    private int code;
-    private String desc;
-    private String codeText;
+    private final int code;
+    private final String desc;
+    private final String codeText;
 
     private final static java.util.Map<Integer, HttpStatusCodes> CONVERSION_MAP = new HashMap<>();
     static {
