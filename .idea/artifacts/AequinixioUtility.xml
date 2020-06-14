@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AequinixioUtility">
+    <output-path>$PROJECT_DIR$/out/artifacts/AequinixioUtility</output-path>
+    <root id="archive" name="AequinixioUtility.jar">
+      <element id="module-output" name="AequinoxioUtility" />
+    </root>
+  </artifact>
+</component>
